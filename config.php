@@ -1,7 +1,7 @@
 <?php
-  $servername = "127.0.0.1";
-  $username = "Naveen";
-  $password = "Naveen@26";
+  $servername = "localhost";
+  $username = "root";
+  $password = "";
   $dbname = "chatapp";
 
   $conn = mysqli_connect($servername, $username, $password, $dbname);
